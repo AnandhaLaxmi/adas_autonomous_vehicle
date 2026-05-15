@@ -1,4 +1,4 @@
-# ADAS Autonomous Vehicle 🚗
+# ADAS Autonomous Vehicle 
 
 A cost-effective Advanced Driver Assistance System (ADAS) prototype 
 built using Raspberry Pi and Arduino, integrating sensor-based control 
@@ -9,13 +9,10 @@ with machine learning for real-world vehicle safety features.
 ## Features
 
 | Feature | Method | Accuracy |
-
+|---|---|---|
 | Automatic Emergency Braking | HC-SR04 Ultrasonic Sensor | Stops within 25cm avg |
-
 | Lane Tracking & Assist | 4× TCRT5000 IR Sensors | 95% under good lighting |
-
 | Pedestrian Detection | YOLOv8 CNN (camera) | ~88% up to 3 meters |
-
 | Traffic Light Recognition | Color segmentation + ML | ~92% for clear signals |
 
 ---
@@ -58,14 +55,36 @@ A dual-processor design splits responsibilities:
 
 ---
 
----
-
 ## Key Results
 
 - Integrated system achieved **90% success rate** across all modules running simultaneously
 - Vision processing: ~150ms per frame → **6–7 fps** on Raspberry Pi
 - Lane centering accuracy: **±5cm** on straight, **±8cm** on curved lanes
 - Built entirely within a **₹28,000 budget** — proving ADAS can be democratized
+
+---
+
+## Demo
+
+### Car on Test Track
+![Car on track](images/demo_track.jpeg)
+
+### Hardware & Wiring
+![Hardware](images/hardware_wiring.jpeg)
+
+---
+
+## Repository Structure
+adas_autonomous_vehicle/
+├── arduino/
+│   └── main.ino              # Motor control, ultrasonic braking, IR lane tracking
+├── raspberry_pi/
+│   ├── adas_vision.py        # YOLOv8 pedestrian + traffic light detection
+│   └── requirements.txt      # Python dependencies
+├── images/
+│   ├── demo_track.jpeg
+│   └── hardware_wiring.jpeg
+└── README.md
 
 ---
 
