@@ -4,9 +4,6 @@ A cost-effective Advanced Driver Assistance System (ADAS) prototype
 built using Raspberry Pi and Arduino, integrating sensor-based control 
 with machine learning for real-world vehicle safety features.
 
-> 📄 Based on the paper: **"Advancements in Vehicle Safety Technology 
-> using Raspberry Pi"** — SSN College of Engineering
-
 ---
 
 ## Features
