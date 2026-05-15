@@ -75,6 +75,8 @@ A dual-processor design splits responsibilities:
 ---
 
 ## Repository Structure
+
+```
 adas_autonomous_vehicle/
 ├── arduino/
 │   └── main.ino              # Motor control, ultrasonic braking, IR lane tracking
@@ -85,7 +87,7 @@ adas_autonomous_vehicle/
 │   ├── demo_track.jpeg
 │   └── hardware_wiring.jpeg
 └── README.md
-
+```
 ---
 
 ## Acknowledgements
