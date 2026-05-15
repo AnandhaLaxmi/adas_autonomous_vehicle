@@ -1,0 +1,5 @@
+opencv-python
+ultralytics
+picamera2
+pyserial
+numpy
