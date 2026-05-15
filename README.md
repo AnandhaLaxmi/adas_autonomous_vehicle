@@ -11,8 +11,11 @@ with machine learning for real-world vehicle safety features.
 | Feature | Method | Accuracy |
 
 | Automatic Emergency Braking | HC-SR04 Ultrasonic Sensor | Stops within 25cm avg |
+
 | Lane Tracking & Assist | 4× TCRT5000 IR Sensors | 95% under good lighting |
+
 | Pedestrian Detection | YOLOv8 CNN (camera) | ~88% up to 3 meters |
+
 | Traffic Light Recognition | Color segmentation + ML | ~92% for clear signals |
 
 ---
